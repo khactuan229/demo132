@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        body{
+            width: 800px;
+            
+        }
+
+        #table{
+            float: right;
+        }
+
+        input{
+            outline: none;
+            padding: 4px 0;
+            margin: 10px 10px;
+            /* border: none; */
+        }
+
+        
+        .form-group.invalid .form-control {
+        border-color: #f33a58;
+        }
+
+        .form-group.invalid .form-message {
+        color: #f33a58;
+        }
+    </style>
+
+
+
+        <table id="table" border="1" cellspacing="0" cellpadding="10px"></table>
+        <div id="form">
+            <div class="form-group">
+                <label for="fullname" class="form-label">Tên đầy đủ</label>
+                  <input id="fullname" name="fullname" type="text" placeholder="VD: Khắc tuấn" class="form-control"> <br>
+                <span class="form-message"></span>
+              </div>
+           
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control"> <br>
+                <span class="form-message"></span>
+              </div>
+              <button id="create" style="margin-top: 10px; padding: 4px 10px;">create</button>
+        </div>
+
+               <table id="table1" border="1" cellspacing="0" cellpadding="10px"></table>
+        <div id="form1">
+            <div class="form-group">
+                <label for="fullname" class="form-label">Tên đầy đủ</label>
+                  <input id="fullname" name="fullname" type="text"  class="form-control"> <br>
+                <span class="form-message"></span>
+              </div>
+           
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" type="text"  class="form-control"> <br>
+                <span class="form-message"></span>
+              </div>
+              <button id="create1" style="margin-top: 10px; padding: 4px 10px;">create1</button>
+        </div>
+        
+    <script type="module" src="./main.js"></script>
+    <script src="./form.js"></script>
+
+    <script>
+        
+        
+    </script>
+
+</body>
+</html>
